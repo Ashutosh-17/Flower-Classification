@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #495069;
+}
+
+.box
+{
+    border-bottom: 2px solid #000;
+    width: 100px;
+    height: 50px;
+}
+.box-grey
+{
+    background-color: #000;
+}
+.box-red
+{
+    background-color: #e74c3c;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a:hover
+{
+    color: #ff523b;
+}
+a
+{
+    text-decoration: none;
+    color: #555;
+}
+p
+{
+    color: #555;
+}
+
+.container
+{
+    
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row
+{
+    
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col2
+{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col2 img
+{
+    max-width: 100%;
+    border-radius: 40px;
+    padding: 6px 0;
+    box-shadow: rgb(0, 0, 0) ;
+    width: 1500px;
+}
+.col2 h1
+{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col2 h2{
+    font-size: 30px;
+    line-height: 12px;
+    margin: 25px 0;
+}
+.col2 h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+}
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.col2 p{
+    font-size: 16px;
+    color: #555;
+    line-height: 22px;
+}
+
+.btn
+{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.1s;
+}
+.btn:hover
+{
+    background: #8a3434;
+}
+.header
+{
+    background: radial-gradient(#c4e8ff,#46b2f6)
+}
+.header .row
+{
+    margin-top: 50px;
+}
+.col4
+{
+    flex-basis: 15%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.3s;
+}
+.col4 img
+{
+    width: 100%;
+}
+.title
+{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title:after
+{
+    content: '';
+    background: #ff523b;
+    width: 160px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.rating .fa
+{
+    color: #ff523b;
+}
+.col4:hover
+{
+    transform: translateY(-5px);
+}
+ .col4 img:hover{
+    box-shadow: 2px 2px 5px grey;
+}
+ marquee
+ {
+     font-size: larger;
+     color: #ff523b;
+ }
+ .offer
+ {
+    background: radial-gradient(#c4e8ff,#5abefc);
+    margin-top: 80px;
+    padding: 30px 0;
+ }
+ .col2 img
+ {
+     padding: 50px;
+     width: 1800;
+ }
+ small
+ {
+     color:#555;
+ }
+ .footer{
+     background: #000;
+     color: #8a8a8a;
+     font-size: 14px;
+     padding: 60px 0 20px;
+ }
+ .footer p{
+     color: #8a8a8a;
+ }
+ .footer h3{
+     color: #fff;
+     margin-bottom: 20px;
+ }
+ .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+     min-width: 250px;
+     margin-bottom: 20px;
+ }
+ .footer-col-1{
+     flex-basis: 30%;
+ }
+ .footer-col-2{
+     flex:1;
+     text-align: center;
+ }
+ .footer-col-2 img{
+     margin-bottom: 20px;
+     width: 180px;
+ }
+ .footer-col-3, .footer-col-4{
+        flex-basis: 12%;
+        text-align: center;
+ }
+  ul{
+        list-style-type: none;
+ }
+ .app-logo{
+     margin-top: 20px;
+ }
+ .app-logo img{
+     width: 150px;
+ }
+ .footer hr{
+     border: none;
+     background: #b5b5b5;
+     height: 1px;
+     margin: 20px 0;
+ }
+ .Copyright{
+     text-align: center;
+ }
+ /*----sign up ------*/
+ .account-page{
+    padding: 30px 0;   
+ }
+ .signup-container{
+     background: #fff;
+     width: 300px;
+     height: 550px;
+     position: relative;    
+     padding: 20px 0;
+     margin: auto;
+     box-shadow: 2px 2px 5px grey;
+     border-radius: 5px;
+    }
+.signup-container span
+{
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    width: 100px;
+    right: 50px;
+}
+.problem{
+    text-align: center;
+}
+.signup-container form
+{
+    max-width: 500px;
+    padding: 0 20px;
+    position: absolute;
+    margin: 15px;
+    top: 110px;
+}
+form .form-control input
+{
+     width: 100%;
+     height: 30px;
+     padding: 0 10px;
+     
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+
+ .form-control{
+     position: relative;
+     margin-bottom: 10px;
+     padding-bottom: 20px;
+
+ }
+ 
+ .form-control input:focus
+ {
+     outline: 0;
+     border-color: #777;
+ }
+ .form-control.success input
+ {
+    border-color: #2ecc71
+}
+.form-control.error input
+{
+    border-color: #e74c3c;
+}
+
+.form-control i
+{
+    position: absolute;
+    top: 7.5px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle
+{
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle
+{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control small
+{
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small
+{
+    visibility: visible;
+}
+
+ form .btn{
+     border: none;
+ }
+ #Indicator{
+     align-items: center;
+     width: 250px;
+     border:none;
+     background: #083255;
+     height: 3px;
+     border-radius: 3px;
+ }
+ .special{
+     display: inline-flex;
+ }
+ .special span{
+     width: 90px;
+     padding-right: 10px;
+ }
+ .num{
+     width: 370px;
+ }
+ .form-container
+ {
+     background: #fff;
+     width: 300px;
+     height: 385px;
+     position: relative;
+     text-align: center;
+     padding: 20px 0;
+     margin: auto;
+     box-shadow: 2px 2px 5px grey;
+     border-radius: 5px;
+     border: 1px solid grey;
+ }
+.form-container span
+ {
+     font-weight: bolder;
+     color: black;
+     width: 100px;
+     font-size: larger;
+ }
+.form-container form
+{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 100px;
+    margin: 20px;
+}
+
+.form-container input
+{
+    width: 100%;
+    height: 30px;
+    padding:  0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Calculator*/
+.input input{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+.operator{
+    background-color: #f1ff92;
+    position: relative;
+}
+
+
+#clear{
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #ff9fa8;
+    margin-bottom: 15px;
+}
+
+#answer{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #f1faeb;
+    float: left;
+}
+
+#answer:hover{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    background-color: #f1faeb;
+}
+
+.calculator-container
+{
+    background: #fff;
+    width: 290px;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+}
+.calculator-container span,.convertor-container span{
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    width: 100px;
+}
+.calculator-container form
+{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 110px;
+}
+
+.conv input{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+
+#display1,#display2,#display3{
+    width: 200px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #f1faeb;
+    float: left;
+}
+
+.convertor-container
+{
+    background: #fff;
+    width: 290px;
+    height: 320px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 5px;
+}

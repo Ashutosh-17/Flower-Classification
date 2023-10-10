@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fluer Livre | Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/logo.png') }}">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="{{ url_for('static', filename='img/Icon-removebg-preview.png') }}" width="220px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col2">
+                    <h1>Identify Flowers for Free.</h1>
+                    <form action="/" method="POST" enctype="multipart/form-data">
+                        <a href="" class="btn">
+                            <input style="display:none;" type="file" name="img" , id="img" accept="image/*">
+                            <label for="img">Choose Files &#10514;</label>
+                        </a>&nbsp;&nbsp;
+                        <button type="submit" class="button">Submit</button>
+                    </form>
+                    <p>By uploading an image you agree to our <u>Terms and Conditions</u></p>
+                </div>
+                <div class="col2">
+                    <img src="{{ url_for('static', filename='img/vector.png') }}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----Footer---->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3> Download Our App </h3>
+                    <p>Download app for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <a href="#"></a>
+                        <img src="{{ url_for('static', filename='img/play-store.png') }}">
+                        <img src="{{ url_for('static', filename='img/app-store.png') }}">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="{{ url_for('static', filename='img/Icon-removebg-preview.png') }}">
+                    <p>Fluer Livre helps you identify flower in a second.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog post</li>
+                        <li>Return policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2022 - Fluer Livre</p>
+        </div>
+    </div>
+</body>
+
